@@ -266,6 +266,36 @@
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Custom scripts -->
   <script type="text/javascript"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+  <link rel="stylesheet" href="smartbasket/css/smartbasket.min.css">
+
+  <div class="smart-basket__wrapper"></div>
+
+  <script src="./smartbasket/js/smartbasket.min.js"></script>
+
+  <script>
+    $(function() {
+      $('.smart-basket__wrapper').smbasket({
+        productElement: 'frame',
+        buttonAddToBasket: 'buy',
+        productPrice: 'product__price-number',
+        productSize: 'product__size-element',
+        productQuantityWrapper: 'product__quantity',
+        smartBasketMinArea: 'cart',
+        countryCode: '+7',
+        smartBasketCurrency: '₸',
+        smartBasketMinIconPath: './smartbasket/img/shopping-bag.png',
+        //smartBasketMinIconPath: 'https://e7.pngegg.com/pngimages/490/293/png-clipart-white-fresh-snow-white-fresh.png',
+        agreement: {
+          isRequired: true,
+          isChecked: true,
+          isLink: 'https://artstranger.ru/privacy.html',
+        },
+        nameIsRequired: false,
+      });
+    });
+  </script>
 </body>
 
 </html>
