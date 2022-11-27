@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>QUBA</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <link rel="stylesheet" href="css/mdb.min.css" />
+  <style>
+    html,
+    body,
+    header,
+    .carousel {
+      height: 60vh;
+    }
+
+    @media (max-width: 740px) {
+      html,
+      body,
+      header,
+      .carousel {
+        height: 100vh;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+      html,
+      body,
+      header,
+      .carousel {
+        height: 100vh;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar fixed-top navbar-expend-lg navbar-light bg-white scrolling-navbar">
+    <div class="container-fluid">
+      <a href="index.html" class="navbar-brand waves-effect">
+        <img src="img/logo.png" height="50" alt="QUBA Logo" loading="lazy" />
+      </a>
+
+      <!-- Tabs navs -->
+      <ul class="nav nav-tabs" id="ex1" role="tablist">
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" href="index.html" role="tab">каталог</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" href="orders.html">доставка и оплата</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link active" href="faq.html">FAQ</a>
+        </li>
+      </ul>
+      <!-- Tabs navs -->
+
+      <!-- Right elements -->
+      <div class="d-flex align-items-center">
+        <!-- Icon -->
+        <a class="cart" href="#" style="transition: color .15s; margin-right: 1rem!important; color: #9fa6b2!important;">
+          <img src="./smartbasket/img/shopping-bag.png" alt="korzina" style="width:20px; height:auto; margin-bottom:5px;">
+          <span class="badge rounded-pill badge-notification bg-danger">&#8195;</span>
+        </a>
+
+        <!-- Notifications -->
+        <div class="dropdown">
+          <a class="link-secondary me-3 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-bell"></i>
+            <span class="badge rounded-pill badge-notification bg-danger">1</span>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+            <li>
+              <a class="dropdown-item" href="#"><b>успей купить новую толстовку с орнаментом!</b></a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">чёрная пятница: распродажа! скидки до 25%</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">мы доработали наш сайт</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Avatar -->
+        <div class="dropdown">
+          <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#" id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+            <div class="bs-korob" style="position: absolute;
+                left: -4px;
+                height: 40px;
+                content: url('img/home/123123.gif');
+                transition: border-color .3s;"></div>
+            <img src="https://cont.ws/uploads/posts2/857295.jpg" class="rounded-circle shadow-inner shadow-5-strong" height="33" alt="Black and White Portrait of a Man" loading="lazy" />
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
+            <li>
+              <a class="dropdown-item" href="about.html">о нас</a>
+            </li>
+            <li>
+              <a class="dropdown-item clse" href="">выйти</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Right elements -->
+    </div>
+  </nav>
+
+  <main class="mt-5 pt-4">
+    <div class="container dark-grey-text mt-5">
+      <div class="row wow fadeIn">
+        <div class="col-md-6 mb-4">
+          <p class="lead font-weight-bold">ВОПРОСЫ</p>
+          <p><b>Про самовывоз</b><br>
+            1. Может ли кто-то другой забрать заказ?<br>
+            2. Есть ли услуга примерки?<br>
+            3. Можно ли забрать заказ из другого пункта самовывоза, не указанного при оформлении?
+          </p>
+          <p><b>Про бронь в магазине</b><br>
+            4. В чём разница между самовывозом и бронью?<br>
+            5. Можно ли продлить бронь в магазине более, чем на 3 дня?<br>
+            6. Можно ли бронировать товары, участвующие в распродаже?<br>
+          </p>
+          <p><b>Про бонусную программу</b><br>
+            7. Можно ли списать бонусные баллы сразу с двух аккаунтов?<br>
+            8. Как можно узнать, сколько баллов доступно для частичной оплаты покупки?<br>
+            9. Вернутся ли потраченные баллы, если заказ был отменён или на него был оформлен возврат?<br>
+          </p>
+        </div>
+        <div class="col-md-6 mb-4">
+          <p class="lead font-weight-bold">ОТВЕТЫ</p>
+          <p><b>1. Может ли кто-то другой забрать заказ?</b><br>
+            Да, ваш заказ может забрать кто угодно, если вы сообщите ему код из SMS. Этот код мы отправляем на ваш зарегистрированный номер телефона перед получением заказа на кассе.
+          </p>
+          <p><b>2. Есть ли услуга примерки?</b><br>
+            Да, услуга примерки возможна. Вы можете взять только то, что вам подошло, и на месте оформить возврат на неподошедшие позиции или на весь заказ.
+          </p>
+          <p><b>3. Можно ли забрать заказ из другого пункта самовывоза, не указанного при оформлении?</b><br>
+            Да, если вы хотите изменить пункт выдачи заказа, свяжитесь с нами по телефону 8 995 271-77-69 или напишите нам в чат. Пожалуйста, будьте готовы назвать номер заказа.
+          </p>
+          <p><b>4. В чём разница между самовывозом и бронью?</b><br>
+            Чтобы забронировать товар, вам нужно связаться с нами любым удобным способом и попросить отложить для вас товар. Бронь сохраняется в течение 3 дней и возможна только в том магазине, где нужный вам товар есть в наличии. Самовывоз — это способ получения вашего заказа, оформленного и оплаченного на нашем сайте. Самовывоз хранится бессрочно и может быть доставлен в любой удобный вам магазин.
+          </p>
+          <p><b>5. Можно ли продлить бронь в магазине более, чем на 3 дня?</b><br>
+            Да, если вам нужно продлить бронь, просто напишите нам в чат или позвоните по телефону 8 995 271-77-69.
+          </p>
+          <p><b>6. Можно ли бронировать товары, участвующие в распродаже?</b><br>
+            Нет, к сожалению, мы не можем забронировать товар из раздела «Распродажа»
+          </p>
+          <p><b>8. Как можно узнать, сколько баллов доступно для частичной оплаты покупки?</b><br>
+            Количество накопленных баллов вы всегда можете посмотреть в вашем личном кабинете на сайте или уточнить у сотрудников магазина. Также вы можете позвонить нам по телефону 8 995 271-77-69 или написать в чат и узнать, сколько у вас баллов. Для этого понадобится номер телефона, который зарегистрирован в бонусной программе.
+          </p>
+          <p><b>9. Вернутся ли потраченные баллы, если заказ был отменён или на него был оформлен возврат?</b><br>
+            Да, бонусные баллы будут возвращены на ваш аккаунт.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Iframe -->
+      <section class="">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-6">
+            <div class="ratio ratio-16x9">
+              <iframe class="shadow-1-strong rounded" src="https://www.youtube.com/embed/DQpO1R_v7rg" title="YouTube video" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Iframe -->
+    </div>
+
+    <section class="mb-4">
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.apple.com/ru/" role="button"><i class="fab fa-lg fa-apple"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://diasraim.t.me" role="button"><i class="fab fa-lg fa-telegram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://vk.com/diasraim" role="button"><i class="fab fa-lg fa-vk"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/Raimguzhinov" role="button"><i class="fab fa-lg fa-github"></i
+      ></a>
+    </section>
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <p class="pt-2">
+            <strong>подпишитесь на рассылку, чтобы не пропустить скидки и предложения</strong>
+          </p>
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">e-mail адрес</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              подписаться
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="https://github.com/Raimguzhinov">github.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+  <div class="container">
+
+  </div>
+
+  <script>
+
+    var clse = document.querySelector('.clse');
+    clse.addEventListener('click', () => {window.close()})
+
+  </script>
+
+  <!-- End your project here-->
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+</body>
+
+</html>
